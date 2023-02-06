@@ -1,0 +1,75 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+h1,p{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+fieldset{
+    border: none;
+    padding: 1rem 0;
+    border-bottom: 4px solid rgb(59, 59, 79);
+}
+
+fieldset:last-of-type{border-bottom: none;}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input, textarea, select{
+    width: 100%;
+    margin: 8px 0 0 0;
+    min-height: 2rem;
+}
+
+.inline{
+    width: unset; /* unset --> This will remove the earlier rule which set all the input elements to width: 100%. */
+    margin: 0 0.5rem 0 0;
+    vertical-align: middle;
+}
+
+input, textarea{
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+input[type=submit]{
+    display: block;
+    width: 60%;
+    margin: 0.5rem auto;
+    min-height: 2rem;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}
+
+input[type=file]{
+    padding: 1px 2px;
+    line-height: 2rem;
+}
+
+a{color: #dfdfe2;}
+a:hover{color: yellow;}
+
+textarea{resize: none;}

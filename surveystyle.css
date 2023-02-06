@@ -1,0 +1,86 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+.container{
+    background: url('img/survey-form-background.jpeg') no-repeat fixed center;
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+.overlay{
+    background-color: rgba(41, 41, 183,0.5);
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0 1rem 0;
+}
+
+p{font-style: oblique;}
+
+form{
+    width: 80vw;
+    max-width: 700px;
+    min-width: 300px;
+    background-color: rgba(22, 21, 21, 0.7);
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 1.5rem 0 3rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.small{font-size: 0.9rem;}
+
+fieldset{
+    border: none;
+    margin: 1rem 0;  
+}
+
+label, legend{
+    display: block;
+    margin: 0 2rem 0.5rem;
+    box-sizing: border-box;
+}
+
+textarea{
+    display: block; 
+    resize: none;
+}
+
+input, textarea, select{
+    width: 100%;
+    min-height: 2.2rem;
+    border-radius: 5px;
+    padding: 0.3rem 0 0.3rem 1.5rem;
+    font-size: 1rem;
+    color: rgb(70, 72, 70);
+    margin-top: 0.3rem;
+}   
+
+.inline{
+    width: 20px;
+    margin: 0 0.5rem;
+    vertical-align: middle;
+}
+
+input[type=submit]{
+    background-color: rgba(106, 216, 115, 0.916);
+    border-color: rgba(106, 216, 115, 0.916);
+    color:white;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+    
+
+
