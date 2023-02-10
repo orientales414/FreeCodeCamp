@@ -1,0 +1,44 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Open Sans',Verdana, Geneva, Tahoma, sans-serif;}
+
+.container{
+    border: 3px solid black;
+    margin: 1rem auto;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 400px;
+    padding: 1rem;
+}
+
+hr{
+    border-color:black;
+    margin: 0.5px 0;
+    height: 0.1px;
+}
+
+h1{
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0.15px;
+}
+
+.right{float: right;}
+
+.bold{font-weight: bolder;}
+
+.divider{
+    border-bottom: 1px solid #888989;
+    margin: 3px 0;
+}
+
+.large{
+    border-bottom: 15px solid black;    
+}
+
+.medium{
+    border-bottom: 8px solid black;
+}
+
+.small-text{font-size: 0.85rem;}
+.big-text{font-size: 2rem;}
+.xl{font-size: 3rem; margin-top: -1rem;}
+.justify{ text-align: justify; font-size: 0.7rem;}

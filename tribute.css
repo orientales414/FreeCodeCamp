@@ -1,0 +1,83 @@
+*{margin: 0; padding: 0;}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+}
+
+.main{
+    background-color: rgb(234, 231, 231);
+    border-radius: 8px;
+    margin: 30px 8px;
+    display: block;
+}
+
+.mat{
+    background-color: white;
+    border-radius: 3px;
+    margin: 0 auto;
+    max-width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mat img{
+    width: 97%; /*esto hace la img responsive */
+}
+
+h1,p{
+    text-align: center;
+}
+
+h1{
+    padding: 2.2rem;
+    font-size: 2rem;
+    color: rgb(56, 55, 55);
+}
+
+p{padding-bottom: 1rem;}
+
+figcaption{
+    padding: 1rem; 
+    text-align: center;
+    font-size: 1rem;
+}
+
+.timeline{
+    padding: 2rem ;
+    width: 50%;
+    max-width: 600px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 3rem; 
+    min-width: 400px;  
+}
+
+.bold{font-weight: bolder; font-size: 700;}
+
+li{
+    text-align: justify;
+    padding-bottom: 15px;
+    font-size:400;
+}
+
+blockquote p, cite{
+    text-align: start;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+blockquote{padding: 2rem 0;}
+
+footer p{
+    font-size: larger;
+}

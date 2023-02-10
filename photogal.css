@@ -20,7 +20,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1rem; 
 }
 
 .gallery img{
@@ -38,4 +38,8 @@ header{
 
 #six{
     object-position: 0 73%;
+}
+
+#nine{
+    object-position: 1% 0;
 }
